@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Tyson Crizz"
+    android:id="@+id/idname"
+    android:layout_marginTop="8dp"
+
+    android:textSize="15dp"
+    android:textColor="@color/black"
+    android:fontFamily="sans-serif-light"
+
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+918113946638"
+        android:layout_marginBottom="8dp"
+
+        android:id="@+id/num"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/idname"
+
+        android:textSize="17dp"
+        android:textColor="@color/teal500"
+        android:fontFamily="sans-serif-light"
+
+        />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_delete"
+        android:id="@+id/deleteImg"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+
+        />
+</RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/holo_red_dark"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.mea.felldetect.FallActivity">
+    <android.support.v7.widget.CardView
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/cardalert">
+        <RelativeLayout
+            android:id="@+id/mainrel"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="You have "
+    android:textSize="30dp"
+    android:id="@+id/have"
+    android:layout_marginBottom="30dp"
+    android:layout_centerHorizontal="true"
+
+    />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/have"
+                android:layout_centerHorizontal="true"
+                    android:id="@+id/smile"
+                android:visibility="invisible"
+                    android:src="@drawable/smile"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/smile"
+                android:id="@+id/smltxt"
+                android:text="Alarm Cancelled!"
+                android:textSize="25dp"
+                android:visibility="invisible"
+
+                android:layout_centerHorizontal="true"
+
+                />
+    <TextView
+        android:id="@+id/countr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30"
+        android:layout_below="@+id/have"
+        android:layout_centerHorizontal="true"
+
+        android:textSize="80dp"
+        android:gravity="center" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:id="@+id/secnd"
+        android:text="seconds"
+        android:layout_toRightOf="@+id/countr"
+        android:layout_alignBottom="@+id/countr"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="  Stop Alarm, am Alright  "
+        android:layout_below="@+id/countr"
+        android:id="@+id/stopa"
+        style="@style/TertiaryButton"
+         />
+            <com.gc.materialdesign.views.ButtonFlat
+                android:id="@+id/signUpl"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/stopa"
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginTop="36dp"
+                android:background="#1E88E5"
+                android:text="Call Emergancy Number" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_callt"
+                android:layout_toLeftOf="@+id/signUpl"
+                android:layout_below="@+id/stopa"
+                android:layout_marginTop="36dp"
+
+
+                />
+
+
+            <!--   <Button
+                   android:layout_width="200dp"
+                   android:layout_centerHorizontal="true"
+                   android:layout_height="wrap_content"
+                   android:text="Call Emergancy Number"
+                   android:layout_below="@+id/stopa"
+                   android:id="@+id/call"
+                   style="@style/Greenbtn"
+                   android:layout_margin="20dp" />-->
+        </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="TertiaryButton">
+        <item name="android:background">@drawable/tertiary_button</item>
+        <item name="android:textColor">@color/TertiaryTextColor</item>
+    </style>
+
+    <style name="Greenbtn">
+        <item name="android:background">@drawable/grnbtn</item>
+        <item name="android:textColor">@color/TertiaryTextColor</item>
+        <item name="android:previewImage">@drawable/ic_launcher</item>
+    </style>
+
+</resources>
