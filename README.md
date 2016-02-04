@@ -1,6 +1,5 @@
 # Fall Detect
-Simple app which detects phone fall.
-This is basically created for an project.  
+Simple app which detects phone fall.  
 
 #Features 
 - in background when the phone fall detects it starts alarm 
